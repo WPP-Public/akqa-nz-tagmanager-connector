@@ -1,0 +1,1 @@
+const pushTagEvent=e=>{"undefined"!=typeof dataLayer&&dataLayer&&dataLayer.push(e)};export default class TagManager{static customEvent(e,a){pushTagEvent("object"==typeof a?{event:e,...a}:{event:e})}static virtualPageView(e){pushTagEvent({event:"virtual_page_view",path:e})}}

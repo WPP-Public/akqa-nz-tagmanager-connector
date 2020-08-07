@@ -1,0 +1,52 @@
+{
+  "name": "@heyday/tagmanager-connector",
+  "version": "0.1.6",
+  "description": "Helper to send data to Google Tag Manger",
+  "main": "dist/index.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "start": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "test": "jest"
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@heyday" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heyday/tagmanager-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heyday/tagmanager-connector/issues"
+  },
+  "keywords": [
+    "webpack",
+    "es6",
+    "starter"
+  ],
+  "author": "Wunderman Thompson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4",
+    "vue-template-compiler": "^2.6.11",
+    "yargs": "11.0.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "autoprefixer": "^9.7.4",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "core-js": "^3.6.4",
+    "cross-env": "^7.0.0",
+    "laravel-mix": "^5.0.1",
+    "laravel-mix-polyfill": "^2.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
