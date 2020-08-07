@@ -1,5 +1,5 @@
 {
-  "name": "@heyday/tagmanager-connector",
+  "name": "tagmanager-connector",
   "version": "0.1.6",
   "description": "Helper to send data to Google Tag Manger",
   "main": "dist/index.js",
